@@ -1,20 +1,56 @@
 .maindiv{
     height: 100%;}
    
-  
 
+.btn{
+    width: 100%;
+height: 10%;
+border:2px solid #F88634;
+border-radius: 24px;
+opacity: 1;
+background-color: white;
+color: #F88634;
 
-/* .carousel-control-prev{
-    opacity: 0;
 }
-.carousel-control-next{
-    opacity: 0;
+a .lost{
+    width: 2%;
+height: 5%;
+text-align: center;
+font-size: 2%;
+letter-spacing: 0px;
+color: #414141;
+opacity: 1;
 }
-.carousel-control-prev:focus .carousel-control-prev:hover
-.carousel-control-next:focus .carousel-control-next:hover{
-    opacity: 0;
-} */
+.policy{
+    margin-top: 20%;
+}
 
+.create2{
+    display: none;
+}
+@media screen and (max-width:1309px){
+    .create1{
+        display: none;
+    }
+    .create2{
+        display: inline;
+    }
+    .create{
+        margin-top: 0%;
+    }
+    .alredy{
+        margin-bottom: 0% !important;
+    }
+}
+.text-left{
+    padding-left: 10%;
+  }
+.form-label{
+    height: 1.375em;
+    background: transparent url('img/Email* copy 6.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+color: #414141;
+}
 .title{
     font-size: 2.5rem;
     color: #FFFFFF;
@@ -30,7 +66,6 @@
 }
 .img1{
     height: 100vh;
-    
     
 }
 .carousel-caption{
@@ -55,50 +90,9 @@
     
 }
 @media screen and (min-width:360px) and (max-width:991px) {
-    .email{
-        margin-top: 5%;
-     }
-     .policy{
-         margin-top: 30%;
-    
-     }
-}
-@media screen and (min-width:360px) and (max-width:991px) {
 
     .title{
-    font-size: 1.5rem;
-    color: #FFFFFF;
-    letter-spacing: 0px;
-    opacity: 1;
-}
-.subtitle{
-    font-size: 0.7rem;
-    color: #FFFFFF;
-    letter-spacing: 0px;
-    opacity: 1;
-    margin-bottom: 0%;
-}
-.carousel-caption{
-    background-image: linear-gradient(
-        to top,
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0.5),
-        transparent);
-        width: 100%;
-        left: 0;
-        bottom: 0 !important;
-   
-}
-
- 
-
-
-}
-@media screen and (max-width:360px) {
-
-    .title{
-    font-size: 0.9rem;
+    font-size: 1rem;
     color: #FFFFFF;
     letter-spacing: 0px;
     opacity: 1;
@@ -120,64 +114,33 @@
         width: 100%;
         left: 0;
         bottom: 0 !important;
+   
 }
 }
-.btn{
-    width: 100%;
-height: 10%;
-border:2px solid #F88634;
-border-radius: 24px;
-opacity: 1;
-background-color: white;
-color: #F88634;
+@media screen and (max-width:360px) {
 
+    .title{
+    font-size: 0.7rem;
+    color: #FFFFFF;
+    letter-spacing: 0px;
+    opacity: 1;
 }
-a .lost{
-    width: 2%;
-height: 5%;
-text-align: center;
-font-size: 2%;
-letter-spacing: 0px;
-color: #414141;
-opacity: 1;
+.subtitle{
+    font-size: 0.3rem;
+    color: #FFFFFF;
+    letter-spacing: 0px;
+    opacity: 1;
+    margin-bottom: 0%;
 }
-.email{
-    margin-top: 50%;
+.carousel-caption{
+    background-image: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5),
+        transparent);
+        width: 100%;
+        left: 0;
+        bottom: 0 !important;
 }
-.policy{
-    margin-top: 50%;
 }
-
-.create2{
-    display: none;
-}
-.text-left{
-    padding-left: 10%;
-  }
-@media screen and (max-width:1309px){
-    .create1{
-        display: none;
-    }
-    .create2{
-        display: inline;
-    }
-    .create{
-        margin-top: 0%;
-    }
-    .dont{
-        margin-bottom: 0% !important;
-    }
-}
-    @media screen and (max-width:991px) {
-        .email{
-           margin-top: 5%;
-        }
-        .policy{
-            margin-top: 30%;
-    
-        }
-        
-      }
-      
-    
-

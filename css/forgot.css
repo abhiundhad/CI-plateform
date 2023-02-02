@@ -10,16 +10,10 @@
     color: #F88634;
     
     }
-    .carousel-control-prev{
-        opacity: 0;
+    .text-left{
+      padding-left: 10%;
     }
-    .carousel-control-next{
-        opacity: 0;
-    }
-    .carousel-control-prev:focus .carousel-control-prev:hover
-    .carousel-control-next:focus .carousel-control-next:hover{
-        opacity: 0;
-    }
+   
     a{
         width: 10%;
 height: 5%;
@@ -32,6 +26,7 @@ font-weight: bold;
 letter-spacing: 0px;
 color: #414141;
 opacity: 1;
+font-size: 1.37rem;
   }
   .para{
     width: 100%;
@@ -53,4 +48,97 @@ opacity: 1;
     }
     
   }
+  .title{
+    font-size: 2.5rem;
+    color: #FFFFFF;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+.subtitle{
+    font-size: 1rem;
+    color: #FFFFFF;
+    letter-spacing: 0px;
+    opacity: 1;
+    
+}
+.img1{
+    height: 100vh;
+    
+}
+.carousel-caption{
+    
+    background-image: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5),
+        transparent);
+        width: 100%;
+        left: 0;
+        bottom: 0 !important;
+}
+
+
+
+@media screen and (max-width:991px) {
+    .img1{
+        height: 50vh;
+    }
+    
+}
+@media screen and (min-width:360px) and (max-width:991px) {
+
+    .title{
+    font-size: 1rem;
+    color: #FFFFFF;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+.subtitle{
+    font-size: 0.5rem;
+    color: #FFFFFF;
+    letter-spacing: 0px;
+    opacity: 1;
+    margin-bottom: 0%;
+}
+.carousel-caption{
+    background-image: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5),
+        transparent);
+        width: 100%;
+        left: 0;
+        bottom: 0 !important;
+   
+}
+}
+@media screen and (max-width:360px) {
+
+    .title{
+    font-size: 0.7rem;
+    color: #FFFFFF;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+.subtitle{
+    font-size: 0.3rem;
+    color: #FFFFFF;
+    letter-spacing: 0px;
+    opacity: 1;
+    margin-bottom: 0%;
+}
+.carousel-caption{
+    background-image: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5),
+        transparent);
+        width: 100%;
+        left: 0;
+        bottom: 0 !important;
+}
+}
   

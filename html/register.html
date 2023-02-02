@@ -5,11 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-<link rel="stylesheet" href="/bootstrap-4.0.0-dist[1]/css/bootstrap.min.css">
-<link rel="stylesheet" href="/css/forgot.css">
-<script src="/bootstrap-4.0.0-dist[1]/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="/bootstrap-4.0.0-dist[1]/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/resiter.css">
+
+    
 </head>
 <body>
+    <script src="/bootstrap-4.0.0-dist[1]/js/bootstrap.bundle.min.js"></script>
     <div class="container-fluid maindiv">
         <div class="row ">
           <div class="col col-lg-8 col-md-12 col-sm-12 col-xs-12">
@@ -61,27 +63,58 @@
             <div class="row justify-content-center">
                 <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
                     <form >
-                        <p class="fs-5 text-center forget ">Forgot Password</p>
-                        <div class="text-center">
-                            <p class=" para">Enter your email address you've using for your account below and we will send you a password reset link</p>
-                            
-                        </div>
-                        
                         <div class="mb-3 mt-3 ">
-                          <label for="exampleInputEmail1" class="form-label">Email address</label>
-                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email address">
-                          
+                            <label for="fristname" class="form-label">Frist Name</label>
+                            <input type="text" class="form-control" placeholder="First name" aria-label="First name" value="evan">
+                          </div>
+
+                          <div class="mb-3 mt-1 ">
+                            <label for="exampleInputEmail1" class="form-label">Last Name</label>
+                            <input type="text" class="form-control" placeholder="Last name" aria-label="Last name" value="donohue">
+                          </div>   
+
+                        <div class="mb-3 mt-1 ">
+                          <label for="phoneno" class="form-label">Phone Number</label>
+                          <input type="tel" class="form-control" id="phone" value="156484156864894" placeholder="phonenumber">
                         </div>
-                        
+
+                        <div class="mb-3 mt-1 ">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="evan.donohue@gmail.com">
+                            
+                          </div>
+
+                        <div class="mb-3 mt-1">
+                          <label for="exampleInputPassword1" class="form-label">Password</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1" value="*******" placeholder="Enter Password"> 
+                        </div>
+                                 
+                          <div class="mb-3 mt-2">
+                            <label for="exampleInputPassword2" class="form-label">Confirm Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword2" value="*******" placeholder="Enter Password">
+                        </div>
                         <div class=" ">
-                            <button type="submit" class="btn mt-3">Reset my Password</button>
+                            <button type="submit" class="btn mt-3">Register</button>
                         </div>
-                        <div class="login text-center text-dark mt-2  ">
-                            <a href="/html/login.html">login</a>
+                        <div class="mb-3 mt-1 text-center ">
+                            <a href="/html/forgot.html" class="lost mt-1 text-dark ">Lost your password?</a>
                         </div>
-                        
                        
-                        
+                        <div class=" create1 mb-3 mt-1 text-center ">
+                            <span>
+                                Already registered?  
+                               </span><a href="/html/login.html" class="create mt-1  "> Login now</a>
+                        </div>
+                        <div class="create2 mt-1">
+                            <div class="mb-3  text-center alredy">
+                                <span>
+                                    Already registered? 
+                                </span> 
+                             </div>
+                             <div class="mb-3  text-center create">
+                                <a href="/html/login.html" class=" mt-1  ">Login now</a>
+                             </div>
+                        </div>
 
                         <div class="mb-3  text-center policy ">
                             <span>Privacy Policy</span>
