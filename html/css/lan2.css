@@ -1,0 +1,17 @@
+@media screen and (min-width:767px) {
+    .btn{
+        display: none;
+    }
+    .ABC{
+        display: none;
+     }
+    
+}
+@media screen and (max-width:767px) {
+ .txt{
+    display: none;
+ }
+ .seconddiv{
+    display: none;
+}
+}
