@@ -1,0 +1,126 @@
+@media  screen and (min-width:767px) {
+    .btn , #offcanvasWithBothOptions{
+           display: none;
+    }
+    .nav-brand{
+        display: none;
+    }
+
+}
+
+@media  screen and (max-width:767px){
+    .navbar1{
+       display:none;
+    }
+    .userprofile{
+       display: none;
+    }
+    .seconddiv{
+       display: none;
+   }
+}
+.header{
+    border-bottom: 1px solid gray;
+}
+.form-control{
+    border: none !important;
+}
+/* .div{
+    border: 1px solid gray;
+} */
+.ham{
+    height: 50%;
+    width: 50%;
+    padding: 0 !important;
+}
+.filterdiv{
+    border-left: 1px solid gray;
+    border-right: 1px solid grey;
+}
+.header2{
+    border-bottom: 1px solid gray;
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+}
+/* ***************** */
+
+
+
+
+
+.theme-btn{
+    border-radius: 22px;
+    background-color: white;
+    border: white;
+    z-index: 1;
+    margin-top: -3%;
+    width: 40%;
+    margin-left: 30%;}
+
+
+.ABC{
+width: max-content;
+}
+
+.card {
+    margin-bottom: 1rem;
+  }
+  
+  .list-view .row > [class*=col-] {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+  .list-view .card {
+    flex-direction: row;
+  }
+  @media (max-width: 575.98px) {
+    .list-view .card {
+      flex-direction: column;
+    }
+  }
+  .list-view .card > .card-img-top {
+    width: auto;
+  }
+  .list-view .card .card-body {
+    display: inline-block;
+  }
+
+  .card-body{
+    padding: 1%;
+    
+  }
+
+
+  .btn-time{
+    background-color: white;
+    z-index: 1 !important;
+    position: relative;
+  }
+
+
+hr {
+    flex: 1;
+    border: none;
+    height: 2px;
+    background: black;
+}
+
+.date-btn {
+    border-radius: 22px;
+    background-color: white;
+    width:auto;
+}
+.applybtn{
+    border-color: #F88634;
+    background-color: white;
+    border-radius: 24px;
+    margin-left: 37%;
+    padding: 3%;
+    margin-bottom: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.applytxt{
+    color: #F88634;
+    font-size: 17px;
+}
